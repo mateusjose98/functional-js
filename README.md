@@ -1,4 +1,5 @@
 # Javascript Funcional e Reativo - COD3R :boom:
+## Instrutor: Leonardo Moura Leitao (Arquiteto de Software)
 
 ## Introdução
 
@@ -49,7 +50,8 @@
 
 *Function Expression:*
 
-``` const dobro = function(x) {
+``` 
+const dobro = function(x) {
         return x * 2
     }
 
@@ -57,7 +59,8 @@
 ```
 *Composição de Funções*
 
-``` const exagerado = composicao(
+``` 
+const exagerado = composicao(
     gritar, <-- É uma função
     enfatizar,  <-- É uma função
 )
