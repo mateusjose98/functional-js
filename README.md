@@ -25,8 +25,22 @@
 |      Maix conhecido   |  Menos conhecido   |
 |    Mais explícito     |  Menos explícito   |
 
-| Imperativo | Declarativo |   |   |   |
-|------------|-------------|---|---|---|
-|      Foco no fluxo      |       Foco na lógica      |   |   |   |
-|            |             |   |   |   |
-|            |             |   |   |   |
+*Exemplos de códigos declarativos (veja que os detalhes de implementação, busca estão abstraídos):* 
+
+``` SELECT matricula FROM alunos WHERE media > 7; ```
+
+``` <ol> <li> item </li></ol> ```
+
+*Exemplos de códigos declarativos:* 
+ 
+``` const notas = [6, 7, 10]
+    const somar = (a, b) => a + b
+    const dividir = (a, b) => a / b
+    const mediaTurma = dividir(notas.reduce(somar), notas.length)
+
+    console.log("Média: ", mediaTurma)
+```
+
+
+
+
