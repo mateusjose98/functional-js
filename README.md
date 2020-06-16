@@ -27,15 +27,21 @@
 |    Mais explícito     |  Menos explícito   |
 
 *Exemplos de códigos declarativos (veja que os detalhes de implementação, busca estão abstraídos):* 
-
-``` SELECT matricula FROM alunos WHERE media > 7; ```
-
-``` <ol> 
+SQL
+```
+ SELECT matricula FROM alunos WHERE media > 7; 
+``` 
+HTML
+``` 
+    <ol> 
         <li> item </li>
         <li> item </li>
-    </ol> ```
+    </ol> 
  
-``` const notas = [6, 7, 10]
+```
+JAVASCRIPT
+```
+ const notas = [6, 7, 10]
     const somar = (a, b) => a + b
     const dividir = (a, b) => a / b
     const mediaTurma = dividir(notas.reduce(somar), notas.length)
