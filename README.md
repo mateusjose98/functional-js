@@ -15,8 +15,8 @@
 
 ### Declarativo vs Imperativo
 
-|         IMPERATIVO    |    DECLARATIVO     |
-|--------------------------------------------|
+| IMPERATIVO | DECLARATIVO |
+|-----------------------|---------------------|
 |      Foco no fluxo    |    Foco na lógica  |
 | Estados Mutáveis      | Imutabilidade      |
 |       Como            |       O que        |
@@ -27,6 +27,6 @@
 
 | Imperativo | Declarativo |   |   |   |
 |------------|-------------|---|---|---|
-|            |             |   |   |   |
+|      Foco no fluxo      |       Foco na lógica      |   |   |   |
 |            |             |   |   |   |
 |            |             |   |   |   |
