@@ -29,9 +29,10 @@
 
 ``` SELECT matricula FROM alunos WHERE media > 7; ```
 
-``` <ol> <li> item </li></ol> ```
-
-*Exemplos de códigos declarativos:* 
+``` <ol> 
+        <li> item </li>
+        <li> item </li>
+    </ol> ```
  
 ``` const notas = [6, 7, 10]
     const somar = (a, b) => a + b
@@ -42,5 +43,39 @@
 ```
 
 
+### O Paradigma Funcional
+
+- **First Class Functions**: as funções são tratadas como valores.
+
+*Function Expression:*
+
+``` const dobro = function(x) {
+        return x * 2
+    }
+
+    dobro(20)
+```
+*Composição de Funções*
+
+``` const exagerado = composicao(
+    gritar, <-- É uma função
+    enfatizar,  <-- É uma função
+)
+
+exagerado('PARA')  <-- É uma função
+```
+
+Um pouco de **Imutabilidade**...
+
+A programação funcional enfrentou um grande problema na época de sua criação: o alto custo de memória. Fato que inviabilizava a cópia de grandes arrays por exemplo. A ideia, então, foi utilizar a passagem por referência que economiza memória. No cenário atual, temos mais memória com preço menor e múltiplos processadores.
+
+Não se mexe nas informações antigas, se cria novas.
+
+**Por que aprender PF?**
+
+1. A programação funcional é mais simples - torna mais fácil de escrever e manter;
+2. Não possui acoplamento temporal, pois trabalhamos com imutabilidade;
+3. Poucos problemas de concorrência;
+4. Trabalha com imutabilidade.
 
 
