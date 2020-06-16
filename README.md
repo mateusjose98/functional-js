@@ -15,12 +15,12 @@
 
 ### Declarativo vs Imperativo
 
-| IMPERATIVO | DECLARATIVO|
-|--------------------------|
-| Foco no fluxo | Foco na lógica|
-| Estados Mutáveis | Imutabilidade|
-| Como | O que |
-| Maior qualidade de código | Maior quantidade de código|
-| Baixo nível de escalabilidade | Alto nível de escalabilidade|
-| Maix conhecido | Menos conhecido
-| Mais explícito | Menos explícito
+|         IMPERATIVO    |    DECLARATIVO     |
+|--------------------------------------------|
+|      Foco no fluxo    |    Foco na lógica  |
+| Estados Mutáveis      | Imutabilidade      |
+|       Como            |       O que        |
+|       Mais código     |     Menos código   |
+|  Baixa escalabilidade | Alta escalabilidade|
+|      Maix conhecido   |  Menos conhecido   |
+|    Mais explícito     |  Menos explícito   |
