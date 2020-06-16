@@ -88,3 +88,10 @@ Não se mexe nas informações antigas, se cria novas.
 4. Trabalha com imutabilidade.
 
 
+
+### Como funciona o Javascript?
+
+![](/img/cfjs.svg)
+
+
+
