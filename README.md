@@ -24,3 +24,9 @@
 |  Baixa escalabilidade | Alta escalabilidade|
 |      Maix conhecido   |  Menos conhecido   |
 |    Mais explícito     |  Menos explícito   |
+
+| Imperativo | Declarativo |   |   |   |
+|------------|-------------|---|---|---|
+|            |             |   |   |   |
+|            |             |   |   |   |
+|            |             |   |   |   |
