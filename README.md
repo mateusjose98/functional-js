@@ -3,7 +3,7 @@
 
 ## Introdução
 
-### Paradigmas de Programação
+#### Paradigmas de Programação
 
 - Paradigma Funcional (1957) é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas e que evita estados ou dados mutáveis.
 
@@ -14,7 +14,7 @@
 - O código funcional tende a usar mais processamento, mas torna a programação paralela mais viável em comparação à POO.
 
 
-### Declarativo vs Imperativo
+#### Declarativo vs Imperativo
 
 | IMPERATIVO | DECLARATIVO |
 |-----------------------|---------------------|
@@ -50,7 +50,7 @@ JAVASCRIPT
 ```
 
 
-### O Paradigma Funcional
+#### O Paradigma Funcional
 
 - **First Class Functions**: as funções são tratadas como valores.
 
@@ -89,9 +89,44 @@ Não se mexe nas informações antigas, se cria novas.
 
 
 
-### Como funciona o Javascript?
+#### Como funciona o Javascript?
+
+Existe uma área especial de memória chamada - HEAP - onde serão armazenadas as informações (objetos, funções).
+
+Quando iniciamos um programa e chamamos as funções, digamos f, que chama a função h, que chama a função g essas funções de exemplo serão referenciadas no local chamado - STACK - de execução. Essa pilha (STACK) vai descendo e subindo até o programa terminar. Em Javascript temos uma única linha de execução.
+
+Como, então, o Javascript faz as coisas assíncronas?
+Para isso existe o EVENT QUEUE (fila com prioridade). Processamentos que dão demandar mais tempo são referenciados nesse local. O seu código continua executando normalmente e quando for o momento da execução, isto é, quando a STACK estiver vazia, o que está no EVENT QUEUE será executado. O fato anterior deve-se ao Javascript ser - single-thread -.
+
+
+Exemplos:
+
+
+
+``` 
+function fn3() {
+
+    setTimeout(() => {
+        console.log('timeout')
+    }, 3000)
+    console.log('f3')
+}
+function fn2() {fn3()}
+function fn1(){ fn2()}
+function main() {fn1()}
+
+main()
+console.log('fim')
+```
+
+
+
 
 ![](/img/cfjs.svg)
+
+
+
+
 
 
 
